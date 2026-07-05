@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "clinic_name": "MasterCare Premium",
+    "clinic_name_kh": "ម៉ាស្ទ័រឃែរ ព្រីមៀម",
+    "slogan": "Your beauty is our profession",
+    "hero_title": "Premium Skin Care & Aesthetic Clinic",
+    "hero_subtitle": "Advanced skin booster, lifting, filler, Botox, and beauty consultation in a clean premium clinic environment.",
+    "phone": "092 830 058 / 098 626 058",
+    "address": "Phnom Penh, Cambodia",
+    "hours": "Daily 9:00 AM - 7:00 PM",
+    "facebook": "https://www.facebook.com/mastercarecambodia",
+    "messenger": "https://m.me/mastercarecambodia",
+    "telegram": "",
+    "map_url": "",
+    "seo_title": "MasterCare Premium - Beauty & Aesthetic Clinic Cambodia",
+    "seo_description": "Premium aesthetic clinic for skin care, lifting, filler, Botox, and beauty consultation in Cambodia."
+  },
+  "services": [
+    {"id":"svc1","name":"Skin Booster","category":"Skin Care","price":"$75","description":"Skin glow and hydration treatment for fresh, healthy-looking skin.","image":"","active":true},
+    {"id":"svc2","name":"Ultra HIFU","category":"Lifting","price":"$250+","description":"Non-surgical lifting and firming treatment for face contour.","image":"","active":true},
+    {"id":"svc3","name":"Shanghai 9D Lifting","category":"Lifting","price":"$499","description":"Premium lifting treatment for smoother, tighter facial appearance.","image":"","active":true},
+    {"id":"svc4","name":"Filler Injection","category":"Injection","price":"Contact","description":"Filler treatment for lips, nose, chin, and facial balance.","image":"","active":true},
+    {"id":"svc5","name":"Botox Injection","category":"Injection","price":"Contact","description":"Botox treatment for smoother and refreshed face look.","image":"","active":true},
+    {"id":"svc6","name":"PDO Fox Eyes","category":"Thread Lift","price":"Contact","description":"PDO thread lifting to create a lifted eye shape.","image":"","active":true},
+    {"id":"svc7","name":"Microneedling PRP","category":"Skin Renewal","price":"$75","description":"Skin renewal treatment for texture and natural glow.","image":"","active":true},
+    {"id":"svc8","name":"Hair Removal Laser","category":"Laser","price":"Contact","description":"Laser hair removal for smoother skin.","image":"","active":true},
+    {"id":"svc9","name":"Semaglutide Weight Loss","category":"Slimming","price":"Contact","description":"Weight loss treatment consultation and program.","image":"","active":true}
+  ],
+  "promotions": [
+    {"id":"pro1","title":"Monthly Beauty Promotion","price":"$250+","description":"Special package for consultation and selected treatments.","image":"","active":true}
+  ],
+  "products": [
+    {"id":"prd1","name":"Q1Cell Skin Booster","category":"Skin Booster","price":"Contact","description":"Premium skin booster product display.","image":"","active":true},
+    {"id":"prd2","name":"Mesotherapy Solution","category":"Mesotherapy","price":"Contact","description":"Product for skin hydration and glow treatment.","image":"","active":true}
+  ],
+  "gallery": [
+    {"id":"gal1","title":"Natural Result Preview","service":"Skin Booster","before":"","after":"","note":"Results may vary depending on individual skin condition.","active":true}
+  ],
+  "bookings": []
+}
