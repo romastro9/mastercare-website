@@ -1,43 +1,73 @@
-# MasterCare Premium Website
+# MasterCare Premium Website v2
 
-Premium clinic website for **MasterCare Cambodia / MasterCare Premium** with a simple PHP admin panel.
+Premium clinic website for **MasterCare Cambodia / MasterCare Premium** with PHP admin panel and JSON storage.
 
-## What is included
+## v2 Updates
 
-- Premium responsive clinic homepage
-- Khmer / English content structure
-- Services, promotions, products, and before/after sections
-- Booking form
-- Admin login
-- Admin panel to edit website information
-- Admin panel to add/edit/delete services, promotions, products, gallery items, and bookings
-- JSON storage, no MySQL required
+- Premium homepage design upgrade
+- Khmer / English language switch
+- Admin first-time setup password
+- Admin password change section
+- Real image upload for logo, hero banner, services, promotions, products, and before/after gallery
+- Edit button for services, promotions, products, and gallery
+- Show / hide active control
+- Booking request management
+- Floating phone and Messenger buttons
+- Mobile navigation menu
 
-## Important
+## Files
 
-GitHub can store the website source code, but **GitHub Pages cannot run PHP admin panel**. To use the admin panel online, upload these files to PHP hosting or cPanel.
+- `index.php` — public website
+- `admin.php` — admin dashboard
+- `config.php` — storage and upload config
+- `assets/style.css` — website/admin design
+- `assets/app.js` — mobile menu script
+- `data/site.json` — website content database
+- `uploads/` — uploaded images
+
+## Install on Anajak / PHP Webserver
+
+Upload all files into:
+
+```text
+/home/container/www
+```
+
+Required structure:
+
+```text
+/home/container/www/index.php
+/home/container/www/admin.php
+/home/container/www/config.php
+/home/container/www/assets/style.css
+/home/container/www/assets/app.js
+/home/container/www/data/site.json
+/home/container/www/uploads/
+```
+
+Set permissions:
+
+```bash
+chmod -R 775 /home/container/www/data /home/container/www/uploads
+chmod 664 /home/container/www/data/site.json
+```
+
+Open website:
+
+```text
+http://my.anajak.cloud:24151
+```
+
+Open admin:
+
+```text
+http://my.anajak.cloud:24151/admin.php
+```
 
 ## Admin Login
 
-Default admin:
+In v2, the first time you open `admin.php`, it asks you to create the admin username and password. This is safer than storing a default password in the source code.
 
-```text
-Username: admin
-Password: MasterCare@2026
-```
+## Important
 
-Change the password in `admin.php` before using the website for real customers.
-
-## Install on cPanel
-
-1. Download or clone this repository.
-2. Upload all files to `public_html`.
-3. Make sure these folders are writable:
-   - `data`
-   - `uploads`
-4. Open your domain to view the website.
-5. Open `/admin.php` to login to the admin panel.
-
-## Security note
-
-Do not keep the default admin password on a live website. Upload only customer images that you have permission to use.
+Use `http://` for the Anajak port URL unless you connect a real custom domain and SSL.
